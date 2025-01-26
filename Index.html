@@ -1,1 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CH Infotech Pvt Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CH Infotech</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to CH Infotech</h1>
+            <p>Your digital transformation partner</p>
+            <button onclick="scrollToSection('services')">Explore Our Services</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section-header">
+            <h2>About Us</h2>
+        </div>
+        <div class="content">
+            <p>We specialize in delivering innovative Embedded Systems, IoT Solutions, and custom software tailored to your needs. Our team combines cutting-edge technology with unparalleled expertise to create impactful solutions for businesses worldwide.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="section-header">
+            <h2>Our Services</h2>
+        </div>
+        <div class="content">
+            <div class="service-card">
+                <h3>Embedded Systems</h3>
+                <p>Developing cutting-edge embedded systems for a wide range of industries.</p>
+            </div>
+            <div class="service-card">
+                <h3>IoT Solutions</h3>
+                <p>Revolutionizing industries with Internet of Things solutions for smarter operations.</p>
+            </div>
+            <div class="service-card">
+                <h3>Consulting</h3>
+                <p>Providing expert consulting to help you achieve your business goals with technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vision">
+        <div class="section-header">
+            <h2>Our Vision</h2>
+        </div>
+        <div class="content">
+            <p>Our vision is to empower businesses to thrive in a digital-first world. We aim to bridge the gap between technology and businesses, helping them achieve unparalleled growth and innovation.</p>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="section-header">
+            <h2>Meet Our Team</h2>
+        </div>
+        <div class="content">
+            <div class="service-card">
+                <h3>Chirag H.</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="service-card">
+                <h3>John Doe</h3>
+                <p>CTO</p>
+            </div>
+            <div class="service-card">
+                <h3>Jane Smith</h3>
+                <p>Head of Operations</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="section-header">
+            <h2>What Our Clients Say</h2>
+        </div>
+        <div class="content">
+            <div class="service-card">
+                <p>"CH Infotech has completely transformed our operations with their IoT solutions. Their team is knowledgeable, professional, and reliable."</p>
+                <h3>- Alex Johnson</h3>
+            </div>
+            <div class="service-card">
+                <p>"The expertise of CH Infotech in Embedded Systems is unmatched. Their solutions are top-notch and have helped us scale our business significantly."</p>
+                <h3>- Sarah Williams</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-header">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="content">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 CH Infotech Pvt Ltd. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scroll to sections
+        function scrollToSection(id) {
+            const section = document.getElementById(id);
+            window.scrollTo({
+                top: section.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+          </html>
 
